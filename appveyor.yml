@@ -4,6 +4,9 @@ skip_tags: true
 
 os: Windows Server 2012 R2
 
+artifacts:
+  - path: bin/docker-machine.exe
+
 environment:
   GOPATH: c:\gopath
 
